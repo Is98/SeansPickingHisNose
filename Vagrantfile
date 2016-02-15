@@ -35,6 +35,7 @@ Vagrant.configure(2) do |config|
 	nCores			= 	defaultCores
 	
 	
+	
 	config.vm.define "master" do |master|
 		master.vm.hostname = "master" + domain
 		master.vm.network "public_network", ip: masterIP
