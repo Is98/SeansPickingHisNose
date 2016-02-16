@@ -1,13 +1,3 @@
-# == Class: graylog2::radio::configure
-#
-# === Authors
-#
-# Renan Silva <renanvice@gmail.com>
-#
-# === Copyright
-#
-# Copyright 2014 synyx GmbH & Co. KG
-#
 class graylog2::radio::configure (
   $config_file,
   $daemon_username,
