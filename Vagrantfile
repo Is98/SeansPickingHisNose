@@ -44,7 +44,7 @@ Vagrant.configure(2) do |config|
 	
 		master.vm.provision "puppetinstall",
 			type: "shell",
-			path: "master.sh"
+			path: "shellscripts/master.sh"
 
 		config.vm.provider :virtualbox do |vb|
 			vb.memory = mRAM
@@ -69,7 +69,7 @@ Vagrant.configure(2) do |config|
 		
 		agent.vm.provision "agent",
 			type: "shell",
-			path: "kibana.sh"
+			path: "shellscripts/kibana.sh"
 	end
 
 	config.vm.define "Graylog" do |agent|
@@ -83,7 +83,7 @@ Vagrant.configure(2) do |config|
 		
 		agent.vm.provision "agent",
 			type: "shell",
-			path: "graylog.sh"
+			path: "shellscripts/graylog.sh"
 	end
 
 	config.vm.define "ElasticSearch" do |agent|
@@ -97,7 +97,7 @@ Vagrant.configure(2) do |config|
 		
 		agent.vm.provision "agent",
 			type: "shell",
-			path: "elastic.sh"
+			path: "shellscripts/elastic.sh"
 	end
 	
 	config.vm.define "Redis" do |agent|
@@ -111,7 +111,7 @@ Vagrant.configure(2) do |config|
 		
 		agent.vm.provision "agent",
 			type: "shell",
-			path: "redis.sh"
+			path: "shellscripts/redis.sh"
 	end
 
 	config.vm.define "LogStash" do |agent|
@@ -125,7 +125,7 @@ Vagrant.configure(2) do |config|
 		
 		agent.vm.provision "agent",
 			type: "shell",
-			path: "logstash.sh"
+			path: "shellscripts/logstash.sh"
 	end
 
 	config.vm.define "nginx" do |agent|
@@ -139,7 +139,7 @@ Vagrant.configure(2) do |config|
 		
 		agent.vm.provision "agent",
 			type: "shell",
-			path: "nginx.sh"
+			path: "shellscripts/nginx.sh"
 	end
 
 end
