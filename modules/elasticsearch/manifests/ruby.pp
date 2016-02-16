@@ -23,10 +23,6 @@
 #
 # elasticsearch::ruby { 'elasticsearch':; }
 #
-# === Authors
-#
-# * Richard Pijnenburg <mailto:richard@ispavailability.com>
-#
 define elasticsearch::ruby (
   $ensure = 'present'
 ) {

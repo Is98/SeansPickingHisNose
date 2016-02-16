@@ -17,11 +17,6 @@
 # It is not intended to be used directly by external resources like node
 # definitions or other modules.
 #
-#
-# === Authors
-#
-# * Richard Pijnenburg <mailto:richard.pijnenburg@elasticsearch.com>
-#
 class elasticsearch::package {
 
   Exec {

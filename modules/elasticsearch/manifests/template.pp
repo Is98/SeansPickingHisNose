@@ -42,10 +42,6 @@
 #   Default value: 9200
 #   This variable is optional
 #
-# === Authors
-#
-# * Richard Pijnenburg <mailto:richard.pijnenburg@elasticsearch.com>
-#
 define elasticsearch::template(
   $ensure  = 'present',
   $file    = undef,

@@ -50,10 +50,6 @@
 # [*init_template*]
 #   Service file as a template
 #
-# === Authors
-#
-# * Richard Pijnenburg <mailto:richard.pijnenburg@elasticsearch.com>
-#
 define elasticsearch::service::systemd(
   $ensure             = $elasticsearch::ensure,
   $status             = $elasticsearch::status,

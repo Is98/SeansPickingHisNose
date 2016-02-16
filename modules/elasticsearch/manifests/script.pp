@@ -24,10 +24,6 @@
 #   Default value: undef
 #   This variable is mandatory
 #
-# === Authors
-#
-# * Richard Pijnenburg <mailto:richard.pijnenburg@elasticsearch.com>
-#
 define elasticsearch::script(
   $source,
   $ensure  = 'present',

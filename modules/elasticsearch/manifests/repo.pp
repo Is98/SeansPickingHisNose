@@ -17,12 +17,6 @@
 # It is not intended to be used directly by external resources like node
 # definitions or other modules.
 #
-#
-# === Authors
-#
-# * Phil Fenstermacher <mailto:phillip.fenstermacher@gmail.com>
-# * Richard Pijnenburg <mailto:richard.pijnenburg@elasticsearch.com>
-#
 class elasticsearch::repo {
 
   Exec {

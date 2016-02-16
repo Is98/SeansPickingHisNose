@@ -7,25 +7,9 @@
 # Therefore, many operating system dependent differences (names, paths, ...)
 # are addressed in here.
 #
-#
-# === Parameters
-#
-# This class does not provide any parameters.
-#
-#
-# === Examples
-#
-# This class is not intended to be used directly.
-#
-#
 # === Links
 #
 # * {Puppet Docs: Using Parameterized Classes}[http://j.mp/nVpyWY]
-#
-#
-# === Authors
-#
-# * Richard Pijnenburg <mailto:richard@ispavailability.com>
 #
 class elasticsearch::params {
 
