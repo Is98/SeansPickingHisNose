@@ -34,7 +34,9 @@ Vagrant.configure(2) do |config|
 	nRAM			= 	defaultRAM
 	nCores			= 	defaultCores
 	
-	
+	config.vm.provision "agents",
+		type: "shell",
+		path: "all.sh"
 	
 	config.vm.define "master" do |master|
 		master.vm.hostname = "master" + domain
