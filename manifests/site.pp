@@ -17,8 +17,7 @@ node "graylog.hot.private" {
 
 node "elasticsearch.hot.private" {
   include elasticsearch
-
-   include java7
+}
 
 node "redis.hot.private" {
   include redis
