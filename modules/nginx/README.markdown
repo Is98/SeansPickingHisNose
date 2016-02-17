@@ -1,4 +1,5 @@
 # NGINX Module
+#Have tested on one agent and successfully deployed onto the machine
 
 ## INSTALLING OR UPGRADING
 ** Please note **: This module is currently undergoing some structural

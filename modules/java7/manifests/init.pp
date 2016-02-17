@@ -4,7 +4,6 @@ class java7 {
     'Ubuntu': { 
       package {'default-jdk':
         ensure => present,
-        before => Package['default-jre'],
        }
     }
  
