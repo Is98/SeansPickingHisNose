@@ -1,0 +1,28 @@
+{
+  "types": [
+
+  ],
+  "license": "Apache License, Version 2.0",
+  "source": "UNKNOWN",
+  "checksums": {
+    "README.md": "c804615468ebd0c3ad345b4ed8b24e84",
+    "manifests/service.pp": "2e8e9fd0de314f265be6b931eb820e18",
+    "Rakefile": "f37e6131fe7de9a49b09d31596f5fbf1",
+    "manifests/init.pp": "68f868de8f0340e1b9a694edbc401520",
+    "manifests/config.pp": "f59972af917b1045c3d9fce16e4beb05",
+    "templates/agent.conf.erb": "c9a5f543c346778ee42e930acb779393",
+    "Modulefile": "6e643f24cc3f2a6ad04dc226d46c029e",
+    "Changelog": "488d0f4d18164a6acba4af2b591cac36",
+    "example.yaml": "5fabdd8fcba8a0b725b5f39a78d77303",
+    "manifests/install.pp": "eba1f0e8cd3bb9cb309fe427a99aae2d"
+  },
+  "description": "UNKNOWN",
+  "version": "0.1.1",
+  "project_page": "https://github.com/erwbgy/puppet-logstash",
+  "summary": "Install the logstash agent with a configuration file.",
+  "name": "erwbgy-logstash",
+  "author": "erwbgy",
+  "dependencies": [
+
+  ]
+}

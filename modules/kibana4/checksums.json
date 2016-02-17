@@ -1,0 +1,14 @@
+{
+  "CHANGELOG.md": "bd1b93f0eb4a700d63d216023e5bb757",
+  "Gemfile": "7734793f17538de8c284b6f4f4461f33",
+  "LICENSE": "4498360bab207d273c8045076ca9de38",
+  "README.md": "19277ae42287cf8a731d059c64d172a8",
+  "Rakefile": "ade6c6b3e083ecde23581347a580f4b2",
+  "manifests/init.pp": "98bc899a1cae1ea120107b91b719a14b",
+  "metadata.json": "afb55cd74b5eca0b5bc8cb2075543eed",
+  "spec/classes/kibana4_spec.rb": "2ff099483da711fd007373d3d2e33663",
+  "spec/spec_helper.rb": "31443cbb31de764aac79186cbc17689f",
+  "templates/etc/init.d/debian.erb": "9a1f156c3636588c06069d814015f53b",
+  "templates/etc/init.d/redhat.erb": "aafe0a6e024dfe3705ad49f4acb8d5cc",
+  "templates/kibana.yml.erb": "7b683acc9a8988354367c04ed6590f5a"
+}
