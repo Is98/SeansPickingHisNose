@@ -1,1 +1,1 @@
-sudo apt-get install puppetmaster
+sudo apt-get install -y puppetmaster tree
