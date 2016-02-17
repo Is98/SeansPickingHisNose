@@ -36,7 +36,7 @@ Vagrant.configure(2) do |config|
 	
 	config.vm.provision "agents",
 		type: "shell",
-		path: "all.sh"
+		path: "shellscripts/all.sh"
 	
 	config.vm.define "master" do |master|
 		master.vm.hostname = "master" + domain
