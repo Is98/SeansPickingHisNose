@@ -1,0 +1,34 @@
+Vagrant.configure(2) do |config|
+	
+	config.vm.box 	= 	"ubuntu/trusty64"
+	domain   		= 	".hot.private"
+	
+	defaultRAM		=	1024
+	defaultCores	=	1
+	
+	lCores			= 	defaultCores
+	
+	testIP 		= 	"192.168.1.156"
+	testRAM		= 	defaultRAM
+	testCores	= 	defaultCores
+	
+	config.vm.provision "agents",
+		type: "shell",
+		path: "test.sh"
+
+	config.vm.define "TestBox" do |agent|
+		agent.vm.hostname = "TestBox" + domain
+		agent.vm.network "public_network", ip: testIP
+		
+		config.vm.provider :virtualbox do |vb|
+			vb.memory = testRAM
+			vb.cpus = testCores
+		end
+		
+		#agent.vm.provision "agent",
+		#	type: "shell",
+		#	path: "shellscripts/nginx.sh"
+		
+	end
+
+end
