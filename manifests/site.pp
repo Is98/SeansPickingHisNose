@@ -1,4 +1,7 @@
 node "kibana.hot.private" {
-  include kibana
+  class { kibana:
+    install_path => "/opt/kibana"
+  }
+  include git
 }
 
