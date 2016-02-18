@@ -204,6 +204,11 @@
 #       status => 'disabled',
 #     }
 #
+#
+# === Authors
+#
+# * Richard Pijnenburg <mailto:richard.pijnenburg@elasticsearch.com>
+#
 class elasticsearch(
   $ensure                = $elasticsearch::params::ensure,
   $status                = $elasticsearch::params::status,

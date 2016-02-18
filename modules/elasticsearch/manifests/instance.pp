@@ -72,6 +72,11 @@
 #
 # [*logdir*]
 #   Log directory for this instance.
+#
+# === Authors
+#
+# * Richard Pijnenburg <mailto:richard.pijnenburg@elasticsearch.com>
+#
 define elasticsearch::instance(
   $ensure             = $elasticsearch::ensure,
   $status             = $elasticsearch::status,

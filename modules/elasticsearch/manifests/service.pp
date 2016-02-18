@@ -53,6 +53,9 @@
 # [*service_flags*]
 #   Service flags, used on OpenBSD for service configuration
 #
+# === Authors
+#
+# * Richard Pijnenburg <mailto:richard.pijnenburg@elasticsearch.com>
 #
 define elasticsearch::service(
   $ensure             = $elasticsearch::ensure,

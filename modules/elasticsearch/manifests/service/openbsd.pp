@@ -50,6 +50,10 @@
 # [*service_flags*]
 #   String, flags to pass to the service
 #
+# === Authors
+#
+# * Richard Pijnenburg <mailto:richard.pijnenburg@elasticsearch.com>
+#
 define elasticsearch::service::openbsd(
   $ensure             = $elasticsearch::ensure,
   $status             = $elasticsearch::status,

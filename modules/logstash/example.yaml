@@ -1,1 +1,0 @@
-logstash::config_template: '/etc/puppet/templates/logstash/agent.conf.erb'

@@ -64,6 +64,12 @@
 #  url        => 'https://oss-es-plugins.s3.amazonaws.com/elasticsearch-jetty/elasticsearch-jetty-0.90.0.zip',
 # }
 #
+# === Authors
+#
+# * Matteo Sessa <mailto:matteo.sessa@catchoftheday.com.au>
+# * Dennis Konert <mailto:dkonert@gmail.com>
+# * Richard Pijnenburg <mailto:richard.pijnenburg@elasticsearch.com>
+#
 define elasticsearch::plugin(
   $instances,
   $module_dir      = undef,
